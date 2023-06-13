@@ -12,6 +12,8 @@ public class SonarQubeController {
     public String hello() {
         if (true) {
             System.out.println("hello");
+            System.out.println("hello");
+            System.out.println("hello");
         }
         return String.valueOf(System.currentTimeMillis());
     }
