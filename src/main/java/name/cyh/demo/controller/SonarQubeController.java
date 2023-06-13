@@ -10,6 +10,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class SonarQubeController {
     @GetMapping("hello")
     public String hello() {
+        if (true) {
+            System.out.println("hello");
+        }
         return String.valueOf(System.currentTimeMillis());
     }
 }
